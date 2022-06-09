@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+    <head th:replace="layout/layout :: head">
+        <title>Datos de la persona</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+
+        <header th:replace="layout/layout :: header" />
+
+        <section th:replace="layout/editarCliente :: editarCliente"> </section>
+
+        <footer th:replace="layout/layout :: footer" />
+    </body>
+</html>
